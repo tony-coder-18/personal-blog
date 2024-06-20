@@ -42,6 +42,7 @@ const Seo = ({ description, title, children }) => {
       />
       <meta name="twitter:title" content={title} />
       <meta name="twitter:description" content={metaDescription} />
+      <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
       {children}
     </>
   )

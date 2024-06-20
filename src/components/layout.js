@@ -32,6 +32,7 @@ const Layout = ({ location, title, children }) => {
 
       <Script id="netlifyScript">
       {`if (window.netlifyIdentity) {
+        console.log("something");
         window.netlifyIdentity.on("init", (user) => {
           if (!user) {
             window.netlifyIdentity.on("login", () => {

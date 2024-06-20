@@ -1,0 +1,15 @@
+backend: name: test-repo
+
+media_folder: static/assets public_folder: /assets
+
+collections:
+  - name: blog-posts 
+    label: Blog Posts 
+    label_singular: Blog Post 
+    folder: blog 
+    create: true 
+    fields:
+      - { name: date, label: Date, widget: datetime}
+      - { name: title, label: Blog Title }
+      - { name: content, label: Blog Content }
+      - { name: url, label: Url }

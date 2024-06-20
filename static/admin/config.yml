@@ -10,7 +10,7 @@ collections:
   - name: blog-posts 
     label: Blog Posts 
     label_singular: Blog Post 
-    folder: blog 
+    folder: content/blog
     create: true 
     fields:
       - { name: date, label: Date, widget: datetime}
